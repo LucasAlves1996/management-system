@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(220,220,220) !important;
+}
+
+#navId{
+    border: none !important;
+    background-color: rgb(180,180,180);
+    box-shadow: 0px 0px 3px 0px rgb(100,100,100);
+}
+
+.nav-tabs .nav-link{
+    color: rgb(80,80,80);
+    border: none !important;
+}
+
+.nav-tabs .nav-link:hover{
+    color: rgb(10,10,10);
+}
+
+.dropdown-menu{
+    transform: translate3d(-1px, 42px, 0px) !important;
+}
+
+.table-div{
+    width: 80%;
+    margin: auto;
+}
+
+.bt-cadastro{
+    margin: 40px 0px 40px 0px;
+}
+
+.modules{
+    margin: 50px 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.module{
+    background-color: rgb(200,200,200);
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.module:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 100px 0px rgb(255,255,255);
+}
+
+.module-title{
+    background-color: rgb(180,180,180);
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+.add-module{
+    display: grid;
+    width: 80%;
+    margin: 80px auto;
+    grid-template-columns: 33.33333333333% 33.33333333333% 33.33333333333%;
+}
+
+i{
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.modal-header{
+    background-color: rgb(180,180,180);
+}
+
+.modal-body{
+    background-color: rgb(180,180,180);
+}
+
+.modal-footer{
+    background-color: rgb(180,180,180);
+}
+
+.modal-div{
+    height: 300px;
+    border: 1px solid rgb(222,226,230);
+    background-color: rgb(255,255,255);
+    overflow: auto;
+}
